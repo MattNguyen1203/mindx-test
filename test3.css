@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #E5E5E5;
+}
+:root{
+    --ft-pop--:'Poppins',sans-serif;
+}
+.container{
+    width: 1213px;
+    height: 830px;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+            /* Header */
+.header-user{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.header-nav{
+    display: flex;
+    color: #151B32;
+    font-weight: 500;
+    justify-content: space-between;
+    font-family: var(--ft-pop--);
+    font-size: 16px;
+}
+.header-search{
+    display: flex;
+    width: 27%;
+    height: 56px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 5px;
+    font-size: 16px;
+}
+.search-icon{
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    margin-right: 18px;
+}
+.header-search div{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-tag{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    color: #151B32;
+}
+.important{
+    background: #849FFF;
+    padding: 16px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+
+                /* Main */
+.container__main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 32%;
+    height: 208px;
+    padding: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    background: #FBFCFF;
+    border-radius: 16px;
+
+}
+.avatar{
+    width: 97px;
+    height: 97px;
+    margin-right: 16px;
+}
+.info{
+    padding-top: 20px;
+}
+.info-name{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 18px;
+}
+.info-location{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.info-field{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-field div{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    padding: 2px 8px;
+    margin: 0 4px 4px 0;
+    color: #516FD5;
+}
+.box-shadow{
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
